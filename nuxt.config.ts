@@ -15,4 +15,10 @@ export default defineNuxtConfig({
   css: [
     "~/assets/css/tailwind.css"
   ],
+  ssr: true,
+  head: {
+    bodyAttrs: {
+      class: 'bg-gray-50 h-full'
+    }
+  }
 })
